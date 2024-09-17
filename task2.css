@@ -1,0 +1,72 @@
+*{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+nav{
+     display: flex;
+     justify-content: space-between;
+     justify-content: space-around;
+     flex: 2;
+   
+}
+li a{
+    color: black;
+}
+header{
+        background-color: orange;
+        display: flex;
+        align-items: center;
+}
+h1{
+     display: flex;
+     justify-content: space-around;
+     flex: 1;
+}
+
+.about ,.about1 , .about2 , .about3 , .about4 , .about5{
+        position: relative;
+
+}
+.about:hover .dropdown{
+                        display: block;
+}
+
+.dropdown a{
+             color: black;
+}
+.dropdown , .dropdown1 , .dropdown2 ,.dropdown3,.dropdown4 , .dropdown5{
+            position: absolute;
+            display: none;
+            top: 150%;
+         }
+.about1:hover .dropdown1{
+                         display: block;
+}
+.dropdown1 a{
+    color: black;
+}
+.about2:hover .dropdown2{
+    display: block;
+}
+.dropdown2 a{
+color: black;
+}
+.about3:hover .dropdown3{
+    display: block;
+}
+.dropdown3 a{
+color: black;
+}
+.about4:hover .dropdown4{
+    display: block;
+}
+.dropdown4 a{
+color: black;
+}
+.about5:hover .dropdown5{
+    display: block;
+}
+.dropdown5 a{
+color: black;
+}
